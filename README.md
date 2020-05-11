@@ -1,5 +1,5 @@
 # TakjilOnline
-Simple food order mobile apps
+Simple Food Order mobile apps
 
 Feature
 1. Add the food quantity to order
