@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CheckoutActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                style="@style/Bold18"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:background="@drawable/shape_border_box">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Person Name"
+                    style="@style/Bold14"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/ic_location_on_black_24dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="4dp"
+                        style="@style/Regular14"
+                        android:text="@string/address"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/ic_local_phone_black_24dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Regular14"
+                        android:text="08212121212"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Delivery Time (Estimation)"
+                style="@style/Bold18"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:background="@drawable/shape_border_box">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/ic_event_black_24dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="4dp"
+                        style="@style/Regular14"
+                        android:text="12 February 2020"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/ic_access_time_black_24dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Regular14"
+                        android:text="18.30"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Items"
+                style="@style/Bold18"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_item_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="100dp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <include layout="@layout/button_okay"/>
+
+</RelativeLayout>

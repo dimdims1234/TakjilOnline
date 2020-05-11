@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "603873208075",
+    "firebase_url": "https://aplikasipesanantakjil.firebaseio.com",
+    "project_id": "aplikasipesanantakjil",
+    "storage_bucket": "aplikasipesanantakjil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603873208075:android:12c683e0b04d5f074ee40e",
+        "android_client_info": {
+          "package_name": "com.nadyadtm.aplikasi_pesanan_takjil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603873208075-ve0avh0maog3m6ldc4vsechpfbjjl5ub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nadyadtm.aplikasi_pesanan_takjil",
+            "certificate_hash": "9cb1acee775b37a916d5c844b57a640b4a01df0a"
+          }
+        },
+        {
+          "client_id": "603873208075-vco83qkd38idaueu6did84n29lf0vpdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4OeR-jxa3cN2OSwnuI9iJn7Rp9Rli1Qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603873208075-vco83qkd38idaueu6did84n29lf0vpdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

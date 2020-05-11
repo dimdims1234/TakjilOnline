@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp">
+
+    <TextView
+        android:id="@+id/tv_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        style="@style/Regular14"
+        android:text="1"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/Regular14"
+        android:text="Siomay Ayam"/>
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Regular14"
+        android:text="IDR 20.000"/>
+
+</LinearLayout>

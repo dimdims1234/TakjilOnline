@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/iv_foodpic"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kolakpisang"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            tools:text="Kolak Pisang"
+            style="@style/Bold14"/>
+
+        <TextView
+            android:id="@+id/tv_food_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:maxLines="3"
+            android:lineSpacingExtra="4dp"
+            tools:text="Kolak pisang favorit anda dengan pisang dan gula merah yang lezat"
+            style="@style/Regular11.Grey"/>
+
+        <TextView
+            android:id="@+id/tv_food_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            tools:text="IDR 20.000"
+            style="@style/Bold14"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b_add"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="4dp"
+        android:text="+"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/shape_round" />
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="16dp"
+        android:layout_height="24dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="0"/>
+    <Button
+        android:id="@+id/b_min"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:text="-"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/shape_round"
+        android:layout_marginLeft="4dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
